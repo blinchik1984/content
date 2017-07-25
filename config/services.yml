@@ -1,0 +1,3 @@
+services:
+  ContentService:
+    class: Services\Content\Components\Service

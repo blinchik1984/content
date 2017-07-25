@@ -1,0 +1,7 @@
+ContentRoute:
+    path:     /content/foo
+    defaults: { _controller: Services\Content\Controller\MyController::foo }
+
+ContentRoute1:
+    path:     /content/foo/bar
+    defaults: { _controller: Services\Content\Controller\MyController::foobar }
